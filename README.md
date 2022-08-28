@@ -8,6 +8,13 @@ not exist\n\tstorj.io/storj/storage/filestore.(*blobStore).Stat:103\n\tstorj.io/
 /collector.(*Service).Run.func1:57\n\tstorj.io/common/sync2.(*Cycle).Run:92\n\tstorj.io/storj/storagenode/collector.(*Service).Run:53\n\tstorj.io/storj/private/lifecycle.(*Group
 ).Run.func2.1:87\n\truntime/pprof.Do:40\n\tstorj.io/storj/private/lifecycle.(*Group).Run.func2:86\n\tgolang.org/x/sync/errgroup.(*Group).Go.func1:57"}
 
+# Steps to use CLI
+
+* Format of command: <scriptname> <path to storj> <path to log file>
+```
+deletestorjfile.ps1 D:\storj D:\storj\logfile.log
+```
+
 # Steps on how to use the script
 
 1: Enter the path to folder containing "storage" folder. If your Storj node is on D drive and the path to "storage" folder is D:\Storj\storage" then enter `D:\Storj`. Press Enter.
