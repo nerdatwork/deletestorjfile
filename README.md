@@ -10,7 +10,7 @@ not exist\n\tstorj.io/storj/storage/filestore.(*blobStore).Stat:103\n\tstorj.io/
 
 # Steps to use CLI
 
-* Format of command: <scriptname> <path to storj> <path to log file>
+* Format of command: `<scriptname> <path to storj> <path to log file>`
 ```
 deletestorjfile.ps1 D:\storj D:\storj\logfile.log
 ```
