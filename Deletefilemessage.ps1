@@ -33,7 +33,7 @@ $satIDHT = @{
 		foreach ($logline in Get-Content $logfile ){
 			$logarr = $logline.Split('"')
 			$satID = $logarr[7]
-			$pieceID = $logarr[11]
+			$pieceID = $logarr[11].ToLower()
 				
 			$satFolder = $satIDHT[$satID]
 				
